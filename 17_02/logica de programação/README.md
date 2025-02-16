@@ -108,16 +108,38 @@ Os algoritmos possuem algumas características fundamentais:
 
 ### 3️⃣ Exemplos Práticos
 #### 🎂 3.1. Fazendo um Bolo (Um Algoritmo do Cotidiano)
-1️⃣ Início do algoritmo.  
-2️⃣ Preaquecer o forno.  
-3️⃣ Separar os ingredientes.  
-4️⃣ Misturar a farinha, o açúcar e o fermento.  
-5️⃣ Adicionar os ingredientes líquidos.  
-6️⃣ Bater a massa até ficar homogênea.  
-7️⃣ Untar uma forma e despejar a massa.  
-8️⃣ Assar e verificar a cocção.  
-9️⃣ Retirar do forno, esfriar e servir.  
-🔚 Fim do algoritmo.
+
+1️⃣ **Início do algoritmo** → **Oval** (Elipse)  
+   - Representa o início do processo.  
+
+2️⃣ **Preaquecer o forno** → **Retângulo**  
+   - Representa uma ação ou processo.  
+
+3️⃣ **Separar os ingredientes** → **Retângulo**  
+   - Representa uma ação ou processo.  
+
+4️⃣ **Misturar a farinha, o açúcar e o fermento** → **Retângulo**  
+   - Representa uma ação ou processo.  
+
+5️⃣ **Adicionar os ingredientes líquidos** → **Retângulo**  
+   - Representa uma ação ou processo.  
+
+6️⃣ **Bater a massa até ficar homogênea** → **Retângulo**  
+   - Representa uma ação ou processo.  
+
+7️⃣ **Untar uma forma e despejar a massa** → **Retângulo**  
+   - Representa uma ação ou processo.  
+
+8️⃣ **Assar e verificar a cocção** → **Losango**  
+   - O ato de **verificar a cocção** implica uma decisão (se estiver assado, continua; se não, espera mais tempo), então deve ser um **losango** para representar a condição.  
+
+9️⃣ **Retirar do forno, esfriar e servir** → **Retângulo**  
+   - Representa uma ação ou processo.  
+
+🔚 **Fim do algoritmo** → **Oval** (Elipse)  
+   - Representa o final do processo.  
+
+Se precisar de um fluxograma ilustrado, posso ajudar a criar um! 😊
 
 # Pesquisa de Preferência de Filmes
 
