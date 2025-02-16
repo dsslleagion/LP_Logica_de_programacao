@@ -106,6 +106,9 @@ Os algoritmos possuem algumas características fundamentais:
 - 🔀 **Decisão**: Representado por um losango.
 - ➡️ **Conectores**: Usados para indicar a sequência de passos.
 
+![Desenho3](https://github.com/user-attachments/assets/71b4245a-54ea-4fe4-b991-d53a6ef18817)
+
+
 ### 3️⃣ Exemplos Práticos
 #### 🎂 3.1. Fazendo um Bolo (Um Algoritmo do Cotidiano)
 
