@@ -147,6 +147,8 @@ Este repositório contém um algoritmo estruturado para coletar e analisar prefe
 
 <details>
   <summary>📜 resposta</summary>
+  
+![Fluxograma do streaming](https://github.com/user-attachments/assets/55be6d45-5468-4a78-9d41-e964cf8dd96b)
 
 ### **Etapas do Processo**
 1. **Início**
@@ -207,6 +209,8 @@ Este repositório contém um algoritmo estruturado para coletar e analisar prefe
 
 
 ## **Fluxograma - Solicitação de Financiamento**
+
+![Fluxograma do processo de auditoria](https://github.com/user-attachments/assets/c7259855-540a-4e19-9fbb-e0be9b9663fc)
 
 Você trabalha em uma startup financeira e recebeu uma
 mensagem de sua coordenadora no slack, solicitando uma
