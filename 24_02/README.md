@@ -199,5 +199,89 @@ necessário para desenvolver essa funcionalidade.
 
 🎉 **Boa aula e bons estudos!** 📚💡
 
+# 📚 Avançando a Matéria de Dia 03/03
+
+## 📚 Introdução às Estruturas de Decisão Simples
+
+### 🎯 Objetivos da Aula
+- Compreender os conceitos fundamentais da lógica de programação e a importância da estrutura de decisão.
+- Desenvolver sistemas computacionais utilizando ambiente de desenvolvimento.
+- Identificar e analisar problemas, desenvolver alternativas e implementar soluções eficazes.
+- Explorar operadores lógicos (AND, OR, NOT) e comparadores para avaliação de condições.
+
+### 📚 Conteúdo da Aula
+
+#### 1. Elementos Básicos do Algoritmo
+- **Sequência**: Instruções executadas linearmente na ordem correta, garantindo previsibilidade na execução do código.
+- **Seleção**: Estruturas condicionais que permitem que diferentes blocos de código sejam executados dependendo de condições específicas.
+- **Repetição**: Permite a execução de um bloco de código múltiplas vezes até que uma condição seja satisfeita, essencial para automação de processos repetitivos.
+
+#### 2. Estruturas de Decisão
+- **If-Else**: Avalia uma condição e executa um bloco de código caso seja verdadeira; caso contrário, executa outro bloco alternativo.
+- **Switch-Case**: Estrutura que avalia múltiplas condições possíveis, tornando a lógica do código mais organizada quando há diversas opções.
+
+#### 3. Operadores Lógicos
+- **AND (`&&`)**: Retorna verdadeiro apenas se ambas as condições forem verdadeiras. Exemplo:
+```python
+if idade >= 18 and possui_habilitacao:
+    print("Pode dirigir")
+```
+- **OR (`||`)**: Retorna verdadeiro se pelo menos uma condição for verdadeira. Exemplo:
+```python
+if dia == "sábado" or dia == "domingo":
+    print("É fim de semana!")
+```
+- **NOT (`!`)**: Inverte o valor de uma condição. Exemplo:
+```python
+if not usuario_logado:
+    print("Acesso negado")
+```
+
+#### 4. Exemplos Práticos
+##### Login e Senha (AND)
+```python
+login_correto = "usuario123"
+senha_correta = "senha123"
+
+def verificar_acesso(login, senha):
+    if login == login_correto and senha == senha_correta:
+        return "Acesso permitido"
+    else:
+        return "Acesso negado"
+```
+
+##### Escolha de Carros (OR)
+```python
+marca = "Ford"
+if marca == "Ford" or marca == "Fiat":
+    print("Carro aceito para revisão")
+else:
+    print("Marca não aceita")
+```
+
+##### Uso do NOT
+```python
+ativo = True
+if not ativo:
+    print("Usuário inativo")
+else:
+    print("Usuário ativo")
+```
+
+### 📈 Atividade Prática
+1. Criar um fluxograma representando a tomada de decisão para liberação de crédito bancário.
+2. Desenvolver um pequeno programa que utilize `if-else` e operadores lógicos para decidir se um usuário pode acessar um serviço.
+3. Produzir um texto síntese (250-500 caracteres) sobre a importância das estruturas de decisão e operadores lógicos.
+4. Aplicar operadores lógicos em um algoritmo que simule um sistema de verificação de idade para acesso a um site adulto.
+
+---
+
+## 📚 Referências
+- [Estruturas de Decisão - UNIVESP](https://apps.univesp.br/novotec/estruturas-de-decisao/?curso=viarapida)
+- [TreinaWeb - Operadores Lógicos](https://www.treinaweb.com.br/blog/operadores-l%C3%B3gicos)
+- [Bóson Treinamentos - Estruturas de Decisão](https://youtu.be/IIt3bc4MBKQ?si=kJAq3S1Hc_7ziWQ1)
+
+🎉 **Boa aula e bons estudos!** 📚💡
+
 
 
