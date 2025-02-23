@@ -182,11 +182,11 @@ necessário para desenvolver essa funcionalidade.
    - Se **Recusado**, solicitar correção e reenvio 🔄
 10. **Aprovação final e liberação do financiamento** 🏦
 11. **Fim** ⬛
-   ```
+  
 
 </details>
 
-
+ 
 
 ## 📚 Referências
 - 📖 **Livro**: CORMEN, T.; LEISERSON, E.; RIVEST, R.; STEIN, C. *Algoritmos - Teoria e Prática*. GEN LTC, 2012.
