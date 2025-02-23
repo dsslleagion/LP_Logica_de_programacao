@@ -139,7 +139,7 @@ Este repositório contém um algoritmo estruturado para coletar e analisar prefe
 4️⃣ Submeter o fluxograma ao AVA ao final da atividade.  
 
 ---
-<!-- <details>
+<details>
   <summary>📜 Conteudo</summary>
 
 
@@ -184,7 +184,7 @@ necessário para desenvolver essa funcionalidade.
 11. **Fim** ⬛
    ```
 
-</details> -->
+</details>
 
 
 
@@ -284,4 +284,142 @@ else:
 🎉 **Boa aula e bons estudos!** 📚💡
 
 
+
+# 📚 Avançando a Matéria de Dia 10/03
+
+## 📚 Introdução às Estruturas de Decisão Simples (Continuação)
+
+### 🎯 Objetivos da Aula
+- Compreender o processo de tomada de decisão dentro dos algoritmos a partir das estruturas `if` e `else`.
+- Conhecer exemplos práticos de aplicação.
+- Desenvolver sistemas computacionais utilizando ambiente de desenvolvimento.
+- Identificar e analisar problemas, desenvolver alternativas e implementar soluções eficazes durante a execução de um projeto.
+
+### 📚 Conteúdo da Aula
+
+#### 1️⃣ Tomada de Decisão na Programação
+Na programação, a capacidade de tomar decisões é essencial. O uso das estruturas `if` e `else` permite avaliar condições e executar diferentes blocos de código conforme o resultado.
+
+Exemplo em Portugol:
+```portugol
+algoritmo ExemploIdade
+var
+    idade: inteiro
+inicio
+    escreva("Digite a sua idade: ")
+    leia(idade)
+
+    se (idade >= 18) entao
+        escreva("Você é maior de idade. Pode entrar.")
+    senao
+        escreva("Você é menor de idade. Não pode entrar.")
+    fimse
+fimalgoritmo
+```
+
+#### 2️⃣ Sintaxe Básica do `if-else` em Portugol
+```portugol
+se (condição) entao
+    // Bloco de código executado se a condição for verdadeira
+senao
+    // Bloco de código executado se a condição for falsa
+fimse
+```
+
+#### 3️⃣ Comparadores e Lógica de Decisão
+Os comparadores são utilizados para avaliar expressões e tomar decisões baseadas em resultados.
+
+Comparadores mais comuns:
+- Igualdade (`==`)
+- Desigualdade (`!=`)
+- Maior que (`>`)
+- Menor que (`<`)
+- Maior ou igual a (`>=`)
+- Menor ou igual a (`<=`)
+
+Exemplo de comparação em Portugol:
+```portugol
+var previsao: caractere
+
+inicio
+    escreva("Qual é a previsão do tempo? (C = Chuva / S = Sem chuva)")
+    leia(previsao)
+
+    se (previsao == "C") entao
+        escreva("Leve o guarda-chuva.")
+    senao
+        escreva("Não é necessário levar o guarda-chuva.")
+    fimse
+fimalgoritmo
+```
+
+### 🏆 Atividade Prática
+1. Criar um algoritmo em Portugol que verifica se um aluno foi aprovado ou reprovado com base em sua média.
+2. Desenvolver um código que simule um sistema de acesso baseado em senha e nível de permissão.
+3. Implementar um sistema de verificação para concessão de desconto em uma loja baseado na idade do cliente.
+
+---
+
+## 📚 Avançando a Matéria de Dia 17/03
+
+### 🎯 Objetivos da Aula
+- Conhecer a aplicação prática do uso de comparadores de decisão e compreender diferentes cenários que permitem sua aplicação.
+- Desenvolver sistemas computacionais utilizando ambiente de desenvolvimento.
+- Aplicar operadores lógicos para tomada de decisões em algoritmos.
+
+### 📚 Conteúdo da Aula
+
+#### 1️⃣ Estudo de Caso: Controle de Acesso na Empresa "Grape"
+A empresa "Grape" deseja implementar um sistema de controle de acesso mais seguro. O sistema deve permitir a entrada apenas para funcionários autorizados, ou seja, aqueles que são gerentes ou possuem uma permissão especial.
+
+Exemplo de código em Portugol:
+```portugol
+se (cargo == "Gerente" ou permissoesEspeciais == verdadeiro) entao
+    escreva("Acesso permitido!")
+senao
+    escreva("Acesso negado.")
+fimse
+```
+
+#### 2️⃣ Comparadores e Tomada de Decisão
+Os comparadores permitem analisar valores e determinar o fluxo do programa.
+
+**Exemplo:** Escolha de roupa baseada na temperatura.
+```portugol
+se (temperatura >= 25) entao
+    escreva("Use uma camiseta de manga curta.")
+senao
+    escreva("Use uma blusa de manga longa.")
+fimse
+```
+
+#### 3️⃣ Aplicação de Operadores Lógicos
+Os operadores lógicos ajudam a construir condições mais complexas para tomada de decisão.
+
+- `&&` (E lógico): Ambas as condições precisam ser verdadeiras.
+- `||` (OU lógico): Apenas uma das condições precisa ser verdadeira.
+- `!` (NÃO lógico): Inverte o valor de uma condição.
+
+Exemplo de operador `&&`:
+```portugol
+se (idade >= 18 && possuiHabilitacao == verdadeiro) entao
+    escreva("Pode dirigir.")
+senao
+    escreva("Não pode dirigir.")
+fimse
+```
+
+### 🏆 Atividade Prática
+1. Criar um algoritmo que determina se uma pessoa pode votar.
+2. Desenvolver um programa que verifica se um número digitado pelo usuário é positivo, negativo ou zero.
+3. Implementar um sistema de segurança que permite ou nega o acesso de um usuário com base em login e senha.
+
+---
+
+## 📚 Referências
+- [ALURA - Lógica de Programação](https://cursos.alura.com.br/course/logica-programacao-mergulhe-programacao-javascript)
+- [Kenzie - Estruturas Condicionais](https://kenzie.com.br/blog/estruturas-condicionais/)
+- [LABENU - Operadores Aritméticos e Comparadores](https://youtu.be/OgxcX1MjbKU?si=c6ZhHVK3Qo9Dukyn)
+
+🎉 **Boa aula e bons estudos!** 📚💡
 
