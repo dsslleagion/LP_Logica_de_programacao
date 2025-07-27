@@ -49,25 +49,63 @@
 #     print("F")
 
 
-# Solicita ao usuário o tempo de serviço em anos  
-tempo_servico = int(input("Digite o tempo de serviço do colaborador (em anos): "))  
+# # Solicita ao usuário o tempo de serviço em anos  
+# tempo_servico = int(input("Digite o tempo de serviço do colaborador (em anos): "))  
 
-# Verifica se o tempo de serviço é menor ou igual a 5 anos  
-if tempo_servico <= 5:  
-    # Ação para colaboradores com até 5 anos de empresa  
-    print("Aumento no vale-refeição")  
+# # Verifica se o tempo de serviço é menor ou igual a 5 anos  
+# if tempo_servico <= 5:  
+#     # Ação para colaboradores com até 5 anos de empresa  
+#     print("Aumento no vale-refeição")  
 
-# Se não se encaixar na condição anterior, verifica se está entre 5 e 10 anos  
-elif tempo_servico <= 10:  
-    # Ação para colaboradores com mais de 5 e até 10 anos de empresa  
-    print("Reajuste de 10% no salário")  
+# # Se não se encaixar na condição anterior, verifica se está entre 5 e 10 anos  
+# elif tempo_servico <= 10:  
+#     # Ação para colaboradores com mais de 5 e até 10 anos de empresa  
+#     print("Reajuste de 10% no salário")  
 
-# Se não se encaixar nas condições anteriores, verifica se está entre 10 e 15 anos  
-elif tempo_servico <= 15:  
-    # Ação para colaboradores com mais de 10 e até 15 anos de empresa  
-    print("Participação na festa de comemoração")  
+# # Se não se encaixar nas condições anteriores, verifica se está entre 10 e 15 anos  
+# elif tempo_servico <= 15:  
+#     # Ação para colaboradores com mais de 10 e até 15 anos de empresa  
+#     print("Participação na festa de comemoração")  
 
-# Caso o tempo de serviço seja maior que 15 anos  
-else:  
-    # Ação para colaboradores com mais de 15 anos  
-    print("Nenhum benefício adicional aplicável")  
+# # Caso o tempo de serviço seja maior que 15 anos  
+# else:  
+#     # Ação para colaboradores com mais de 15 anos  
+#     print("Nenhum benefício adicional aplicável")  
+
+
+
+
+
+
+
+
+
+
+
+# Solicita ao usuário o valor da compra e a categoria do cliente
+valor_compra = float(input("Digite o valor total da compra: R$ "))
+categoria = input("Digite a categoria do cliente (Premium, Gold, Prata ou outra): ").strip().lower()
+
+# Define os descontos com base na categoria
+if categoria == "premium":
+    desconto = 0.20
+elif categoria == "gold":
+    desconto = 0.15
+elif categoria == "prata":
+    desconto = 0.10
+else:
+    desconto = 0.00
+
+# Calcula o valor do desconto e o valor final
+valor_desconto = valor_compra * desconto
+valor_final = valor_compra - valor_desconto
+
+# Exibe os resultados
+print("\nResumo da compra:")
+print(f"Valor original: R$ {valor_compra:.2f}")
+print(f"Desconto aplicado: R$ {valor_desconto:.2f}")
+print(f"Valor final a pagar: R$ {valor_final:.2f}")
+
+
+
+
